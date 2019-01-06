@@ -1,6 +1,6 @@
 # sample_tf
-#部分示例参考学习自B站 莫烦 Python 课程 https://www.bilibili.com/video/av16001891/
-#一些tensorflow入门的示例程序
+部分示例参考学习自B站 莫烦 Python 课程 https://www.bilibili.com/video/av16001891/
+一些tensorflow入门的示例程序
 一：GradientDescentOptimizer.py
   实现了最简单的梯度下降；随机生成x_data,y_data = 0.1*x_data + 0.3;然后用梯度下降法预测权重W和便宜b,学习步长为0.5,学习200次
 
