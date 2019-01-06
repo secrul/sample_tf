@@ -12,3 +12,5 @@
     数据：x_data是-1到1之间线性数字，y_data = x_data ^ 2 - 0.5 + noise; 并不是确切的二次关系；
       同样采用梯度下降法学习2000次，同时用plt进行可视化；
     效果：可以看到模拟函数不断自我完善逼近真实数据；
+    同时构造了一个graph来表示具体的流程，程序运行完之后在pycharm的terminal中运行：tensorboard --logdir=log 语句，将连接复制到浏览器就可以查看graph
+
